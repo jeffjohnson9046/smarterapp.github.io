@@ -10,8 +10,10 @@ Ruby Setup/Configuration
   * `ruby --version`
   * Example output: `ruby 2.1.6p336 (2015-04-13 revision 50298) [x86_64-darwin12.0]`
 * If ruby is not installed OR is not at least v 2.0.0, instructions for installing or updating ruby can be found [here](https://www.ruby-lang.org/en/downloads/)
-* Install the `github-pages` gem (if it isn't already installed):
-  * `gem install github-pages`
+* Install the [`bundler`](http://bundler.io/) gem (if it isn't already installed):
+  * `gem install bundler`
+* Run the following command to download and install the required dependencies:
+  * `bundle install`
 
 Run The Web Server Locally
 --------------------------
